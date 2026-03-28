@@ -1,0 +1,23 @@
+baseURL = 'https://blog.m8t.io/'
+locale = 'en-us'
+title = 'Random dude doing random stuff'
+theme = "PaperMod"
+
+[params]
+homeInfoParams = { Title = "Moin", Content = "Nur ein Test" }
+
+[[menus.main]]
+name = "Blog"
+url = "/blog/"
+weight = 1
+
+
+[[menus.main]]
+name = "Homelab"
+url = "/homelab/"
+weight = 2
+
+[[menus.main]]
+name = "2 cents"
+url = "/2cents/"
+weight = 3
